@@ -1,7 +1,7 @@
 class PurePaste < Formula
 
 	desc "Pure Paste"
-	homepage "undefined local variable or method"
+	homepage "https://apps.apple.com/us/app/pure-paste/id1611378436?mt=12"
 	version "1.3.2"
 
 	depends_on mas
