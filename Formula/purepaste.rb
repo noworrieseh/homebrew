@@ -7,7 +7,7 @@ class Purepaste < Formula
 
 
 	def install
-		system "python", "install", "1611378436"
+		system "mas", "install", "1611378436"
 	end
 
 end
