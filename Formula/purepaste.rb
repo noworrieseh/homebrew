@@ -7,7 +7,7 @@ class Purepaste < Formula
 
 
 	def install
-		system "mas", "install", "1611378436"
+		system "/usr/local/bin/mas", "install", "1611378436"
 	end
 
 end
