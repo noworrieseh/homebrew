@@ -1,4 +1,4 @@
-class PurePaste < Formula
+class Purepaste < Formula
 
 	desc "Pure Paste"
 	homepage "https://apps.apple.com/us/app/pure-paste/id1611378436?mt=12"
