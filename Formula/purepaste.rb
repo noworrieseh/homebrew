@@ -7,6 +7,7 @@ class Purepaste < Formula
 
 
 	def install
+		chmod 0755, "./buildapp.sh"
 		system "./buildapp.sh", "purepaste", "Pure Paste"
 		system "/usr/local/bin/mas", "install", "1611378436"
 		bin.install "purepaste"
