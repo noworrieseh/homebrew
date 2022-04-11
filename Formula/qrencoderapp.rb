@@ -1,4 +1,4 @@
-class Qrencodeapp < Formula
+class Qrencoderapp < Formula
 	@@masid = 452695239
 
 	desc "QREncoder"
