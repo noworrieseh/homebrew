@@ -12,7 +12,7 @@ class Pixelmator < Formula
 	def install
 		chmod 0755, "./buildapp.sh"
 		system "./buildapp.sh", "#{name}", "#{desc}"
-		system "/usr/local/bin/mas", "install", @@masid
+		system "#{prefix}/bin/mas", "install", @@masid
 		bin.install "#{name}"
 	end
 
