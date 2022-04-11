@@ -12,7 +12,7 @@ class Keynote < Formula
 	def install
 		chmod 0755, "./buildapp.sh"
 		system "./buildapp.sh", "#{name}", "#{desc}"
-		system "#{prefix}/bin/mas", "install", @@masid
+		system "#{bin}/mas", "install", @@masid
 		bin.install "#{name}"
 	end
 
