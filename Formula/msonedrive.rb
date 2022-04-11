@@ -1,4 +1,4 @@
-class Onedrive < Formula
+class Msonedrive < Formula
 	@@masid = 823766827
 
 	desc "OneDrive"
