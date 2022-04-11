@@ -1,4 +1,4 @@
-class Termius < Formula
+class Termiusapp < Formula
 	@@masid = 1176074088
 
 	desc "Termius"

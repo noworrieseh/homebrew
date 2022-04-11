@@ -1,4 +1,4 @@
-class Pcalc < Formula
+class Pcalcapp < Formula
 	@@masid = 403504866
 
 	desc "PCalc"
