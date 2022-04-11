@@ -1,7 +1,7 @@
-class Purepaste < Formula
-	@@masid = 1611378436
+class Blackmagicspeed < Formula
+	@@masid = 425264550
 
-	desc "Pure Paste"
+	desc "Blackmagic Disk Speed Test"
 	homepage "https://apps.apple.com/us/app/id@@masid"
 	url "https://raw.githubusercontent.com/noworrieseh/homebrew/main/bin/buildapp.sh"
 	version "1.0"
@@ -15,7 +15,7 @@ class Purepaste < Formula
 	end
 
 	test do
-		assert_predicate "/Applications/Pure Paste.app", :exist?
+		assert_predicate "/Applications/Blackmagic Disk Speed Test.app", :exist?
 	end
 
 end

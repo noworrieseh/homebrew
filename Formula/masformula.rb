@@ -4,7 +4,7 @@ class Purepaste < Formula
 	desc "Pure Paste"
 	homepage "https://apps.apple.com/us/app/id@@masid"
 	url "https://raw.githubusercontent.com/noworrieseh/homebrew/main/bin/buildapp.sh"
-	version "1.0"
+	version "1.3.2"
 
 
 	def install
@@ -15,7 +15,7 @@ class Purepaste < Formula
 	end
 
 	test do
-		assert_predicate "/Applications/Pure Paste.app", :exist?
+		assert_predicate "/Applications/Pure\ Paste.app", :exist?
 	end
 
 end

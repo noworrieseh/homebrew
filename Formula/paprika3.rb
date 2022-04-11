@@ -1,7 +1,7 @@
-class Purepaste < Formula
-	@@masid = 1611378436
+class Paprika3 < Formula
+	@@masid = 1303222628
 
-	desc "Pure Paste"
+	desc "Paprika Recipe Manager 3"
 	homepage "https://apps.apple.com/us/app/id@@masid"
 	url "https://raw.githubusercontent.com/noworrieseh/homebrew/main/bin/buildapp.sh"
 	version "1.0"
@@ -15,7 +15,7 @@ class Purepaste < Formula
 	end
 
 	test do
-		assert_predicate "/Applications/Pure Paste.app", :exist?
+		assert_predicate "/Applications/Paprika Recipe Manager 3.app", :exist?
 	end
 
 end

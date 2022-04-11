@@ -1,7 +1,7 @@
-class Purepaste < Formula
-	@@masid = 1611378436
+class Appleconf < Formula
+	@@masid = 1037126344
 
-	desc "Pure Paste"
+	desc "Apple Configurator"
 	homepage "https://apps.apple.com/us/app/id@@masid"
 	url "https://raw.githubusercontent.com/noworrieseh/homebrew/main/bin/buildapp.sh"
 	version "1.0"
@@ -15,7 +15,7 @@ class Purepaste < Formula
 	end
 
 	test do
-		assert_predicate "/Applications/Pure Paste.app", :exist?
+		assert_predicate "/Applications/Apple Configurator.app", :exist?
 	end
 
 end

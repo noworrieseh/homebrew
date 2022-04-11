@@ -1,7 +1,7 @@
-class Purepaste < Formula
-	@@masid = 1611378436
+class Msonenote < Formula
+	@@masid = 784801555
 
-	desc "Pure Paste"
+	desc "Microsoft OneNote"
 	homepage "https://apps.apple.com/us/app/id@@masid"
 	url "https://raw.githubusercontent.com/noworrieseh/homebrew/main/bin/buildapp.sh"
 	version "1.0"
@@ -15,7 +15,7 @@ class Purepaste < Formula
 	end
 
 	test do
-		assert_predicate "/Applications/Pure Paste.app", :exist?
+		assert_predicate "/Applications/Microsoft OneNote.app", :exist?
 	end
 
 end
