@@ -12,7 +12,7 @@ class Purepaste < Formula
 	def install
 		chmod 0755, "./buildapp.sh"
 		system "./buildapp.sh", "#{name}", "#{desc}"
-		system "#{bin}/mas", "install", @@masid
+		system "#{HOMEBREW_PREFIX}/bin/mas", "install", @@masid
 		bin.install "#{name}"
 	end
 
